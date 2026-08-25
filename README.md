@@ -25,24 +25,31 @@
 - **Backend** com **NestJS** + **Prisma** + **PostgreSQL** — APIs, filas (Bull/Redis) e integrações.
 - **Frontend** com **Next.js** / **React** — dashboards, painéis de dados e interfaces com **3D (WebGL)**.
 - **3D interativo** com **Three.js / React Three Fiber** — cenas em WebGL feitas em código.
+- **IA aplicada / LLMs** — integração de modelos (**Claude / Anthropic**) em produção: agentes, tool calling, classificação de intenção e *human-in-the-loop*.
 - **Automações** — GitHub Actions, cron na nuvem, integrações com Notion, Meta (Facebook) e n8n.
 - **Análise de marketing** — ROAS, atribuição, ingestão de métricas e relatórios.
 
 ### 🛠️ Stack
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
-![React Three Fiber](https://img.shields.io/badge/React%20Three%20Fiber-black?style=for-the-badge&logo=three.js&logoColor=61DAFB)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,nextjs,react,threejs,tailwind,prisma,postgres,redis,docker,python,vercel,git&theme=dark&perline=14" alt="Stack" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude%20(Anthropic)-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLMs%20%C2%B7%20Agents%20%C2%B7%20RAG-6E56CF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/React%20Three%20Fiber%20%2F%20WebGL-000000?style=for-the-badge&logo=three.js&logoColor=61DAFB" />
+</p>
+
+### 🤖 IA & LLMs
+
+Construo features com **LLMs em produção** — não só protótipos:
+
+- 🧠 **Integração de modelos** — **Claude (Anthropic)** via API, com **streaming** e controle de contexto/custo.
+- 🛠️ **Tool / function calling** — o modelo aciona ferramentas e APIs do sistema com dados reais.
+- 🤝 **Agentes & orquestração** — classificação de intenção, roteamento e **human-in-the-loop** (no **CentralIA**, o supervisor escala pra atendente humano quando necessário).
+- 📚 **RAG** — recuperação de contexto para respostas fundamentadas nos dados do cliente.
+- 🛡️ **Fundamentos** — *prompt engineering*, *guardrails*, avaliação de saídas e mitigação de *prompt injection*.
 
 ### 💎 Diferenciais
 
