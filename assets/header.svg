@@ -1,44 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 250" width="1100" height="250" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif" role="img" aria-label="Gabriel Trisi — Desenvolvedor Fullstack">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0b1a33"/>
-      <stop offset="55%" stop-color="#0a1424"/>
-      <stop offset="100%" stop-color="#04070e"/>
+      <stop offset="0" stop-color="#0b1a33"/><stop offset="55%" stop-color="#0a1424"/><stop offset="100%" stop-color="#04070e"/>
     </linearGradient>
     <radialGradient id="signal" cx="50%" cy="45%" r="55%">
-      <stop offset="0" stop-color="#f2d38a" stop-opacity=".95"/>
-      <stop offset="45%" stop-color="#d9b463" stop-opacity=".55"/>
-      <stop offset="100%" stop-color="#d9b463" stop-opacity="0"/>
+      <stop offset="0" stop-color="#f2d38a" stop-opacity=".95"/><stop offset="45%" stop-color="#d9b463" stop-opacity=".55"/><stop offset="100%" stop-color="#d9b463" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="name" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#cfe0f5"/>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="42%" stop-color="#eaf2fb"/><stop offset="72%" stop-color="#b9cbe6"/><stop offset="100%" stop-color="#8199bd"/>
     </linearGradient>
+    <linearGradient id="cowlvol" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26385c"/><stop offset="55%" stop-color="#0e1a30"/><stop offset="100%" stop-color="#05090f"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="42%" stop-color="#ffffff" stop-opacity="0"/><stop offset="50%" stop-color="#ffffff" stop-opacity=".7"/><stop offset="58%" stop-color="#ffffff" stop-opacity="0"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <text id="nmt" x="550" y="150" text-anchor="middle" font-size="82" font-weight="900" letter-spacing="1">Gabriel Trisi</text>
+    <path id="cowlpath" d="M316 112 L320 92 L327 56 L335 92 L341 98 L347 92 L355 56 L362 92 L366 112 L341 122 Z"/>
+    <clipPath id="nameclip"><use href="#nmt"/></clipPath>
+    <filter id="eyeglow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="wordshadow" x="-10%" y="-20%" width="120%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity=".55"/></filter>
     <style>
+      #word  { animation: float 5s ease-in-out infinite; }
       #glow  { animation: pulse 3.2s ease-in-out infinite; transform-origin:1010px 60px; }
       #bat   { animation: fly 9s linear infinite; }
-      #batwing{ animation: flap 0.5s ease-in-out infinite; transform-origin:center; transform-box:fill-box; }
+      #batwing{ animation: flap .5s ease-in-out infinite; transform-origin:center; transform-box:fill-box; }
+      .shine { animation: sweep 4.8s ease-in-out infinite; }
       .twk   { animation: tw 3s ease-in-out infinite; }
+      #eyes  { animation: eyepulse 2.4s ease-in-out infinite; }
+      @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-3px)} }
       @keyframes pulse { 0%,100%{opacity:.75;transform:scale(1)} 50%{opacity:1;transform:scale(1.06)} }
       @keyframes fly   { 0%{transform:translate(-140px,40px) scale(.5)} 100%{transform:translate(1140px,-10px) scale(.5)} }
       @keyframes flap  { 0%,100%{transform:scaleY(1)} 50%{transform:scaleY(.55)} }
+      @keyframes sweep { 0%{transform:translateX(-420px) skewX(-20deg)} 55%,100%{transform:translateX(1500px) skewX(-20deg)} }
       @keyframes tw    { 0%,100%{opacity:.25} 50%{opacity:.9} }
+      @keyframes eyepulse { 0%,100%{opacity:.85} 50%{opacity:1} }
       @media (prefers-reduced-motion: reduce){ *{animation:none!important} }
     </style>
   </defs>
 
   <rect width="1100" height="250" rx="10" fill="url(#sky)"/>
 
-  <!-- estrelas -->
   <g fill="#cfe0f5">
-    <circle class="twk" cx="120" cy="40" r="1.4"/>
-    <circle class="twk" cx="300" cy="30" r="1.1" style="animation-delay:-1s"/>
-    <circle class="twk" cx="520" cy="48" r="1.3" style="animation-delay:-1.6s"/>
-    <circle class="twk" cx="680" cy="26" r="1.1" style="animation-delay:-.6s"/>
-    <circle class="twk" cx="1000" cy="50" r="1.3" style="animation-delay:-2.2s"/>
+    <circle class="twk" cx="120" cy="40" r="1.4"/><circle class="twk" cx="300" cy="30" r="1.1" style="animation-delay:-1s"/>
+    <circle class="twk" cx="520" cy="48" r="1.3" style="animation-delay:-1.6s"/><circle class="twk" cx="680" cy="26" r="1.1" style="animation-delay:-.6s"/>
+    <circle class="twk" cx="900" cy="200" r="1.2" style="animation-delay:-2.2s"/>
   </g>
 
-  <!-- bat-signal (canto superior direito) -->
+  <!-- bat-signal -->
   <g id="glow"><ellipse cx="1010" cy="60" rx="100" ry="100" fill="url(#signal)"/></g>
   <g transform="translate(1010,62) scale(1.05)" fill="#0a0f1a" opacity=".9">
     <path d="M0 -14 C -6 -30 -22 -34 -34 -26 C -26 -26 -22 -18 -24 -8 C -14 -14 -8 -10 0 4 C 8 -10 14 -14 24 -8 C 22 -18 26 -26 34 -26 C 22 -34 6 -30 0 -14 Z"/>
@@ -47,15 +56,13 @@
   <!-- skyline -->
   <g fill="#060b16">
     <rect x="0" y="205" width="1100" height="45"/>
-    <rect x="40" y="180" width="46" height="70"/><rect x="96" y="196" width="34" height="54"/>
-    <rect x="150" y="168" width="40" height="82"/><rect x="205" y="188" width="30" height="62"/>
-    <rect x="250" y="200" width="52" height="50"/><rect x="700" y="186" width="38" height="64"/>
-    <rect x="748" y="172" width="44" height="78"/><rect x="800" y="196" width="30" height="54"/>
-    <rect x="980" y="182" width="42" height="68"/><rect x="1030" y="198" width="40" height="52"/>
+    <rect x="40" y="176" width="46" height="74"/><rect x="96" y="196" width="34" height="54"/><rect x="150" y="164" width="40" height="86"/>
+    <rect x="205" y="188" width="30" height="62"/><rect x="250" y="200" width="52" height="50"/><rect x="700" y="184" width="38" height="66"/>
+    <rect x="748" y="168" width="44" height="82"/><rect x="800" y="196" width="30" height="54"/><rect x="980" y="180" width="42" height="70"/><rect x="1030" y="198" width="40" height="52"/>
   </g>
   <g fill="#d9b463" opacity=".7">
-    <rect class="twk" x="54" y="192" width="4" height="4"/><rect class="twk" x="164" y="182" width="4" height="4" style="animation-delay:-1s"/>
-    <rect class="twk" x="762" y="188" width="4" height="4" style="animation-delay:-1.4s"/><rect class="twk" x="994" y="196" width="4" height="4" style="animation-delay:-.7s"/>
+    <rect class="twk" x="54" y="190" width="4" height="4"/><rect class="twk" x="164" y="178" width="4" height="4" style="animation-delay:-1s"/>
+    <rect class="twk" x="762" y="184" width="4" height="4" style="animation-delay:-1.4s"/><rect class="twk" x="994" y="194" width="4" height="4" style="animation-delay:-.7s"/>
   </g>
 
   <!-- morcego voando -->
@@ -63,16 +70,30 @@
     <g id="batwing"><path d="M0 -5 C -5 -12 -14 -13 -20 -9 C -14 -9 -12 -4 -13 2 C -6 -3 -3 -2 0 4 C 3 -2 6 -3 13 2 C 12 -4 14 -9 20 -9 C 14 -13 5 -12 0 -5 Z"/></g>
   </g>
 
-  <!-- ===== wordmark: Gabriel Trisi (G com capuz do Batman) ===== -->
-  <text x="550" y="150" text-anchor="middle" font-size="82" font-weight="900" letter-spacing="1" fill="url(#name)" style="paint-order:stroke;stroke:#0a0f1a;stroke-width:2px"><tspan id="gl">G</tspan>abriel Trisi</text>
+  <!-- ===== wordmark 3D + capuz ===== -->
+  <g id="word" filter="url(#wordshadow)">
+    <!-- extrusão (profundidade, luz vindo do topo-esquerda) -->
+    <g fill="#0a1626">
+      <use href="#nmt" transform="translate(6,6)"/><use href="#nmt" transform="translate(5,5)"/>
+      <use href="#nmt" transform="translate(4,4)"/><use href="#nmt" transform="translate(3,3)"/>
+      <use href="#nmt" transform="translate(2,2)"/><use href="#nmt" transform="translate(1,1)"/>
+    </g>
+    <!-- face metálica -->
+    <use href="#nmt" fill="url(#metal)" stroke="#0a1424" stroke-width="1"/>
+    <!-- brilho que passa -->
+    <g clip-path="url(#nameclip)"><rect class="shine" x="0" y="68" width="150" height="116" fill="url(#shine)"/></g>
 
-  <!-- capuz do Batman sobre o topo do G (centro x=341) -->
-  <g>
-    <path d="M316 112 L320 92 L327 56 L335 92 L341 98 L347 92 L355 56 L362 92 L366 112 L341 122 Z"
-          fill="#0b1220" stroke="#e7c274" stroke-width="2.5" stroke-linejoin="round"/>
-    <!-- olhos brancos (bravos) -->
-    <path d="M324 106 L337 111 L325 114 Z" fill="#ffffff"/>
-    <path d="M358 106 L345 111 L357 114 Z" fill="#ffffff"/>
+    <!-- capuz com espessura -->
+    <use href="#cowlpath" transform="translate(3,3)" fill="#04070d"/>
+    <use href="#cowlpath" transform="translate(1.5,1.5)" fill="#070d18"/>
+    <use href="#cowlpath" fill="url(#cowlvol)" stroke="#e7c274" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- reflexo dourado na orelha esquerda -->
+    <path d="M320 90 L327 58" stroke="#f6e0a6" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".8"/>
+    <!-- olhos brancos brilhando -->
+    <g id="eyes" filter="url(#eyeglow)" fill="#eaf3ff">
+      <path d="M324 106 L337 111 L325 114 Z"/>
+      <path d="M358 106 L345 111 L357 114 Z"/>
+    </g>
   </g>
 
   <!-- subtítulo -->
