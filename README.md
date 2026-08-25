@@ -74,16 +74,17 @@ Construo features com **LLMs em produção** — não só protótipos:
 ### 📊 GitHub em números
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=gabrieltrisi&show_icons=true&hide_border=true&theme=tokyonight" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrieltrisi&layout=compact&hide_border=true&theme=tokyonight" />
+  <img width="80%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gabrieltrisi&theme=tokyonight" alt="Resumo do perfil no GitHub" />
 </p>
 
 <p align="center">
-  <img height="165" src="https://streak-stats.demolab.com/?user=gabrieltrisi&theme=tokyonight&hide_border=true" />
+  <img height="182" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gabrieltrisi&theme=tokyonight" alt="Linguagens por repositório" />
+  <img height="182" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gabrieltrisi&theme=tokyonight" alt="Linguagens mais usadas em commits" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=gabrieltrisi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />
+  <img height="182" src="https://streak-stats.demolab.com/?user=gabrieltrisi&theme=tokyonight&hide_border=true" alt="Sequência de contribuições" />
+  <img height="182" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gabrieltrisi&theme=tokyonight&utcOffset=-3" alt="Horários mais produtivos" />
 </p>
 
 <picture>
