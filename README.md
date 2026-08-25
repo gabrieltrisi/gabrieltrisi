@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1E3F,100:2F81F7&height=200&section=header&text=Gabriel%20Trisi&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=Desenvolvedor%20Fullstack%20%C2%B7%20TypeScript%20de%20ponta%20a%20ponta&descAlignY=57&descSize=18" alt="Gabriel Trisi" />
+<img width="100%" src="assets/header.svg" alt="Gabriel Trisi — Desenvolvedor Fullstack · TypeScript de ponta a ponta" />
 
 <p align="center">
   <a href="https://github.com/gabrieltrisi">
@@ -50,6 +50,16 @@ Construo features com **LLMs em produção** — não só protótipos:
 - 🤝 **Agentes & orquestração** — classificação de intenção, roteamento e **human-in-the-loop** (no **CentralIA**, o supervisor escala pra atendente humano quando necessário).
 - 📚 **RAG** — recuperação de contexto para respostas fundamentadas nos dados do cliente.
 - 🛡️ **Fundamentos** — *prompt engineering*, *guardrails*, avaliação de saídas e mitigação de *prompt injection*.
+- ⚡ **Desenvolvimento assistido por IA** — fluxo *agentic coding* no dia a dia com **Claude Code**, **OpenAI Codex**, **Cursor**, **GitHub Copilot**, **Windsurf** e **Google Antigravity** (agentes de código, refactor e automação).
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI%20Codex-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Windsurf-09B6A2?style=for-the-badge&logo=codeium&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+</p>
 
 ### 💎 Diferenciais
 
