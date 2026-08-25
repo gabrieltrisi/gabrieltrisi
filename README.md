@@ -1,4 +1,10 @@
-<h1 align="center">Oi, eu sou o Gabriel Trisi 👋</h1>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1E3F,100:2F81F7&height=200&section=header&text=Gabriel%20Trisi&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=Desenvolvedor%20Fullstack%20%C2%B7%20TypeScript%20de%20ponta%20a%20ponta&descAlignY=57&descSize=18" alt="Gabriel Trisi" />
+
+<p align="center">
+  <a href="https://github.com/gabrieltrisi">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2800&pause=800&color=2F81F7&center=true&vCenter=true&width=600&lines=Fullstack+%C2%B7+NestJS+%2B+Next.js;APIs%2C+filas+e+integra%C3%A7%C3%B5es+em+produ%C3%A7%C3%A3o;Three.js+%2F+React+Three+Fiber+%C2%B7+WebGL;Automa%C3%A7%C3%A3o+e+an%C3%A1lise+de+marketing" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
   Desenvolvedor <strong>fullstack</strong> na <strong>Gteck</strong> — construindo dashboards de marketing,
@@ -16,7 +22,8 @@
 ### 🚀 No que eu trabalho
 
 - **Backend** com **NestJS** + **Prisma** + **PostgreSQL** — APIs, filas (Bull/Redis) e integrações.
-- **Frontend** com **Next.js** / **React** — dashboards e painéis de dados.
+- **Frontend** com **Next.js** / **React** — dashboards, painéis de dados e interfaces com **3D (WebGL)**.
+- **3D interativo** com **Three.js / React Three Fiber** — cenas em WebGL feitas em código.
 - **Automações** — GitHub Actions, cron na nuvem, integrações com Notion, Meta (Facebook) e n8n.
 - **Análise de marketing** — ROAS, atribuição, ingestão de métricas e relatórios.
 
@@ -27,6 +34,8 @@
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![React Three Fiber](https://img.shields.io/badge/React%20Three%20Fiber-black?style=for-the-badge&logo=three.js&logoColor=61DAFB)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
@@ -38,12 +47,12 @@
 
 | Projeto | Sobre | Demo |
 |---|---|:---:|
+| [**Perazzo & Associados**](https://github.com/gabrieltrisi/perazzo-associados) | Site institucional **full-stack com Hero 3D (WebGL)** — balança da justiça interativa em **React Three Fiber** (reage ao mouse, martelo que bate ao clicar) — + **painel admin multiusuário** (CMS + CRM de leads), formulário transacional (Resend) e SEO técnico. Next.js 15 · Prisma · PostgreSQL. | [🔗](https://perazzoadvogados.com.br) |
 | [**CentralIA**](https://github.com/gabrieltrisi/CentralIA) | Atendimento **omnichannel com IA** para provedores de internet (ISP). NestJS + Prisma + BullMQ e Next.js, integrando WhatsApp Cloud API (Meta), ISPBOX e IA (Claude) — supervisor classifica a intenção e escala pra humano quando precisa. | [🔗](https://central-ia-lac.vercel.app/login) |
 | [**Foguetão**](https://github.com/gabrieltrisi/foguetao-web) | **CRM de performance** para marketing, vendas e resultado. Next.js 16 + React 19 (Tailwind v4, design system próprio, RBAC, tempo real) sobre um backend SaaS multi-tenant (NestJS + Prisma, Turborepo). | [🔗](https://foguetao-web.vercel.app/login) |
 | [**Desenvolva-TEA**](https://github.com/gabrieltrisi/Desenvolva-TEA) | **SaaS de apoio ao desenvolvimento de crianças com TEA** — para famílias, profissionais e prefeituras. Next.js 16 + Prisma, multi-tenant, autenticação própria (JWT em cookie httpOnly) e RBAC por perfil. | [🔗](https://desenvolva-tea.vercel.app/) |
 | [**campaign-intelligence-platform**](https://github.com/gabrieltrisi/campaign-intelligence-platform) | Plataforma fullstack de análise de marketing: autenticação JWT, dashboard de campanhas, análise de ROAS e insights de performance. | [🔗](https://campaign-intelligence-platform-roan.vercel.app/) |
 | [**elo-rh-system**](https://github.com/gabrieltrisi/elo-rh-system) | Sistema de gestão de RH (React, Node, Prisma, PostgreSQL) com automação de processos e dashboard inteligente. | [🔗](https://elo-rh-system.vercel.app/login) |
-| [**authenticmotors**](https://github.com/gabrieltrisi/authenticmotors) | Plataforma para revenda de veículos, com área administrativa. | [🔗](https://authenticmotors.vercel.app/) |
 
 ### 📊 GitHub em números
 
@@ -55,6 +64,8 @@
 <p align="center">
   <img height="165" src="https://streak-stats.demolab.com/?user=gabrieltrisi&theme=tokyonight&hide_border=true" />
 </p>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=gabrieltrisi&theme=tokyo-night&hide_border=true&area=true&color=2F81F7&line=2ea44f&point=FFFFFF&custom_title=Atividade%20de%20contribui%C3%A7%C3%B5es" alt="Gráfico de atividade" />
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=gabrieltrisi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />
@@ -79,8 +90,4 @@
   <a href="mailto:dev@gteck.com.br"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-<sub>📍 Salvador, BA — aberto a freela, projetos e vagas (pleno · sênior).</sub>
-
----
-
-<p align="center"><i>“Faz funcionar pequeno primeiro, depois cresce.” 🚀</i></p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2F81F7,100:0B1E3F&height=100&section=footer" alt="" />
