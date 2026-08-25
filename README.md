@@ -87,10 +87,13 @@ Construo features com **LLMs em produção** — não só protótipos:
   <img height="182" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gabrieltrisi&theme=tokyonight&utcOffset=-3" alt="Horários mais produtivos" />
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabrieltrisi/gabrieltrisi/output/github-snake-dark.svg" />
-  <img alt="cobrinha comendo as contribuições" src="https://raw.githubusercontent.com/gabrieltrisi/gabrieltrisi/output/github-snake.svg" />
-</picture>
+### 🕹️ DEV &nbsp;vs&nbsp; BUG
+
+<p align="center">
+  <img width="100%" src="assets/battle.svg" alt="Mini-game arcade: o DEV nocauteando o BUG — SVG animado feito à mão" />
+</p>
+
+<p align="center"><sub>Mini-arcade em <strong>SVG animado</strong>, feito 100% à mão (sem libs, só CSS keyframes) — porque todo bug encontra seu dev. 🥊</sub></p>
 
 ### 🎓 Formação &nbsp;·&nbsp; 🌎 Idiomas
 
