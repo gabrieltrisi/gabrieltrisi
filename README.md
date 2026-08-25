@@ -83,7 +83,7 @@ Construo features com **LLMs em produção** — não só protótipos:
 </p>
 
 <p align="center">
-  <img height="182" src="https://streak-stats.demolab.com/?user=gabrieltrisi&theme=tokyonight&hide_border=true" alt="Sequência de contribuições" />
+  <img height="182" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=gabrieltrisi&theme=tokyonight" alt="Estatísticas gerais" />
   <img height="182" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gabrieltrisi&theme=tokyonight&utcOffset=-3" alt="Horários mais produtivos" />
 </p>
 
