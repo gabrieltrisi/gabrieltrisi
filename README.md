@@ -65,8 +65,6 @@
   <img height="165" src="https://streak-stats.demolab.com/?user=gabrieltrisi&theme=tokyonight&hide_border=true" />
 </p>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=gabrieltrisi&theme=tokyo-night&hide_border=true&area=true&color=2F81F7&line=2ea44f&point=FFFFFF&custom_title=Atividade%20de%20contribui%C3%A7%C3%B5es" alt="Gráfico de atividade" />
-
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=gabrieltrisi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />
 </p>
