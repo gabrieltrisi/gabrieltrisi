@@ -14,6 +14,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/foco-TypeScript%20de%20ponta%20a%20ponta-3178C6?style=flat-square" />
   <img src="https://img.shields.io/badge/aberto%20a-freela%20%C2%B7%20vagas%20(pleno%20%C2%B7%20s%C3%AAnior)-2ea44f?style=flat-square" />
+  <img src="https://img.shields.io/badge/dispon%C3%ADvel-remoto%20%C2%B7%20reloca%C3%A7%C3%A3o-8A2BE2?style=flat-square" />
   <img src="https://komarev.com/ghpvc/?username=gabrieltrisi&style=flat-square&color=blue&label=visitas+no+perfil" />
 </p>
 
@@ -42,6 +43,15 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### 💎 Diferenciais
+
+- 🧊 **3D / WebGL** — cenas interativas em **Three.js / React Three Fiber** feitas em código (não é template).
+- 🏢 **SaaS multi-tenant** — arquitetura isolada por tenant, com **RBAC** por perfil.
+- 🔐 **Autenticação própria** — JWT em cookie httpOnly, middleware edge, **revogação de sessão** e audit log.
+- ⚙️ **Filas & background jobs** — **BullMQ/Redis**, crons na nuvem, retries e idempotência.
+- 🔌 **Integrações reais** — WhatsApp Cloud API (Meta), Notion, n8n e APIs/gateways externos.
+- 📊 **Dados de marketing** — ROAS, atribuição, ingestão de métricas e reconciliação.
 
 ### 📌 Projetos em destaque
 
